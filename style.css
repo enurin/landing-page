@@ -39,7 +39,6 @@ nav a {
   text-decoration: none;
 }
 
-/* Introduction: text and image sit beside each other. */
 .hero {
   display: flex;
   align-items: center;
@@ -102,7 +101,6 @@ nav a:focus-visible {
   outline-offset: 4px;
 }
 
-/* Information: each card keeps its box and caption together. */
 .information {
   padding: 48px 24px 110px;
   text-align: center;
@@ -138,7 +136,6 @@ nav a:focus-visible {
   font-size: 18px;
 }
 
-/* Quote and attribution share the same content width. */
 .testimonial {
   padding: 120px max(24px, calc((100% - 780px) / 2));
   background-color: #e5e7eb;
@@ -163,7 +160,6 @@ nav a:focus-visible {
   text-align: right;
 }
 
-/* The section itself forms the blue call-to-action box. */
 .call-to-action {
   display: flex;
   justify-content: space-between;
@@ -207,7 +203,6 @@ footer p {
   margin: 0;
 }
 
-/* Stack wider groups when the screen gets smaller. */
 @media (max-width: 900px) {
   header {
     padding: 20px 6%;
